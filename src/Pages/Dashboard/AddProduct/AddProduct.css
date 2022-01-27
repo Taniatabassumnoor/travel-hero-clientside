@@ -1,0 +1,16 @@
+.form-design{
+    text-align: center;
+    background-image: url('https://i.ibb.co/N1Nnvvp/ripple-ornament-forever-drop-costume.jpg');
+    background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.801) !important;
+}
+
+.form-design input{
+    width: 50%;
+    margin: 10px;
+    border: 1px solid gray;
+} 

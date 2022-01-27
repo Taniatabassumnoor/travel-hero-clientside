@@ -1,23 +1,87 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
+import AuthProvider from "./Contexts/AuthProvider/AuthProvider";
+import About from "./Pages/AboutUsPage/About/About";
+import BlogDetails from "./Pages/BlogDash/Admin/BlogDetails/BlogDetails";
+import Dashboard from "./Pages/Dashboard/Dashboard/Dashboard";
+
+import ExploreHome from "./Pages/ExplorePage/ExploreHome/ExploreHome";
+
+import Home from "./Pages/HomePage/Home/Home";
+import Services from "./Pages/HomePage/Services/Services";
+import Login from "./Pages/Login/Login/Login/Login";
+import Register from "./Pages/Login/Login/Register/Register";
+import PrivateRoute from "./Pages/Login/PrivateRoute/PrivateRoute";
+
+import PurchaseProduct from "./Pages/ProductDetails/PurchaseProduct";
+
+import Footer from "./Pages/Shared/Footer/Footer";
+import Headers from "./Pages/Shared/Headers/Headers";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <AuthProvider>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Headers />
+              <Home />
+              <Footer />
+            </Route>
+            <Route exact path="/home">
+              <Headers />
+              <Home />
+              <Footer />
+            </Route>
+            <Route exact path="/about">
+              <Headers />
+              <About />
+              <Footer />
+            </Route>
+            {/* <Route exact path="/contact">
+            <Headers />
+            <Contact />
+            <Footer />
+          </Route> */}
+            <Route exact path="/services">
+              <Services />
+            </Route>
+            <PrivateRoute path="/products/:id">
+              <Headers />
+              <PurchaseProduct />
+              <Footer />
+            </PrivateRoute>
+            <PrivateRoute path="/blogs/:id">
+              <Headers />
+              <BlogDetails />
+              <Footer />
+            </PrivateRoute>
+            {/* <PrivateRoute path="/userblogs/:id">
+              <Headers />
+              <BlogDetails />
+              <Footer />
+            </PrivateRoute> */}
+            <Route path="/login">
+              <Headers />
+              <Login />
+              <Footer />
+            </Route>
+
+            <Route path="/register">
+              <Headers />
+              <Register />
+              <Footer />
+            </Route>
+            <PrivateRoute path="/dashboard">
+              <Dashboard />
+            </PrivateRoute>
+            {/* <Route exact path="*">
+            <NotFound />
+          </Route> */}
+          </Switch>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }
