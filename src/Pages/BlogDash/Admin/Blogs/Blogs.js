@@ -1,30 +1,26 @@
-import {
-  Box,
-  Button,
-  Card,
-  CardContent,
-  CardMedia,
-  Container,
-  Grid,
-  Typography,
-} from "@mui/material";
+import { Box, Container, Grid, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import { Roll } from "react-reveal";
-import { NavLink } from "react-router-dom";
 import Blog from "../Blog/Blog";
-
+import "./Blogs.css";
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/blogs")
+    fetch(` https://dry-bastion-02316.herokuapp.com/blogs`)
       .then((res) => res.json())
-      .then((data) => setBlogs(data));
+      .then((data) => {
+        setBlogs(data);
+      });
   }, []);
   return (
-    <Box sx={{ flexGrow: 1, mt: 25, mb: 15 }}>
+    <Box sx={{ flexGrow: 1, mb: 15 }}>
       <Container>
         <Typography
-          sx={{ fontWeight: 600, m: "5%", color: "#000" }}
+          sx={{
+            fontWeight: 600,
+            m: "5%",
+            color: "salmon",
+            textAlign: "center",
+          }}
           variant="h4"
           component="div"
         >

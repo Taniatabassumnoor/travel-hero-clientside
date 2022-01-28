@@ -5,8 +5,6 @@ import About from "./Pages/AboutUsPage/About/About";
 import BlogDetails from "./Pages/BlogDash/Admin/BlogDetails/BlogDetails";
 import Dashboard from "./Pages/Dashboard/Dashboard/Dashboard";
 
-import ExploreHome from "./Pages/ExplorePage/ExploreHome/ExploreHome";
-
 import Home from "./Pages/HomePage/Home/Home";
 import Services from "./Pages/HomePage/Services/Services";
 import Login from "./Pages/Login/Login/Login/Login";

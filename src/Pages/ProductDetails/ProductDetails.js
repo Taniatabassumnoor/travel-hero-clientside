@@ -17,7 +17,7 @@ const ProductDetails = ({ id }) => {
   const handleClosePlaceOrder = () => setOpenPlaceOrder(false);
   useEffect(() => {
     axios
-      .get(` http://localhost:5000/products/${id}`)
+      .get(`  https://dry-bastion-02316.herokuapp.com/products/${id}`)
       .then((res) => setProduct(res.data));
   }, []);
 

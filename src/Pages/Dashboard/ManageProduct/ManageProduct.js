@@ -10,23 +10,23 @@ import Paper from "@mui/material/Paper";
 import { Button, Container } from "@mui/material";
 
 const ManageProduct = () => {
-  const [products, setProducts] = useState([]);
+  const [blogs, setBlogs] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/products")
-      .then((res) => setProducts(res.data));
+      .get(" https://dry-bastion-02316.herokuapp.com/blogs")
+      .then((res) => setBlogs(res.data));
   }, []);
 
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure, you want to delete?");
     if (proceed) {
       axios
-        .delete(`http://localhost:5000/products/${id}`)
+        .delete(` https://dry-bastion-02316.herokuapp.com/blogs/${id}`)
         .then((res) => {
           if (res.data.deletedCount > 0) {
             alert("product deleted");
-            const restData = products.filter((order) => order._id !== id);
-            setProducts(restData);
+            const restData = blogs.filter((order) => order._id !== id);
+            setBlogs(restData);
           }
         });
     }
@@ -38,29 +38,29 @@ const ManageProduct = () => {
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
             <TableRow>
-              <TableCell>Product Name</TableCell>
-              <TableCell align="center">Product Image</TableCell>
-              <TableCell align="center">Price</TableCell>
+              <TableCell>Blog Title</TableCell>
+              <TableCell align="center">Blog Image</TableCell>
+              <TableCell align="center">Date</TableCell>
               <TableCell align="center">Action</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
-            {products.map((product) => (
+            {blogs.map((product) => (
               <TableRow
                 key={product.name}
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
               >
                 <TableCell component="th" scope="row">
-                  {product.name}
+                  {product.title}
                 </TableCell>
                 <TableCell align="center">
                   <img
                     style={{ width: 50, height: 50 }}
-                    src={product.cardImg}
+                    src={product.image}
                     alt=""
                   />
                 </TableCell>
-                <TableCell align="center">{product.price}</TableCell>
+                <TableCell align="center">{product.date}</TableCell>
                 <TableCell align="center">
                   {" "}
                   <Button

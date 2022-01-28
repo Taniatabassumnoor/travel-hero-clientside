@@ -12,7 +12,7 @@ const PurchaseUserDashboard = () => {
   const { user } = useAuth();
   const [purchase, setPurchase] = useState([]);
   useEffect(() => {
-    const url = `http://localhost:5000/purchase_info?email=${user.email}`;
+    const url = ` https://dry-bastion-02316.herokuapp.com/purchase_info?email=${user.email}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setPurchase(data));

@@ -1,0 +1,19 @@
+.pagination {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 30%;
+}
+.pagination button {
+  margin: 3%;
+  background-color: salmon;
+  color: white;
+  font-size: 18px;
+  border: none;
+
+  padding-right: 1%;
+  padding-right: 1%;
+}
+.pagination .selected {
+  background-color: rgba(85, 85, 212, 0.842);
+  color: white;
+}

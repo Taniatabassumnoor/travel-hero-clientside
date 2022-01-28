@@ -23,6 +23,8 @@ import useAuth from "../../../Hooks/useAuth";
 import Reviews from "../../HomePage/Reviews/Reviews";
 
 import AddBlog from "../../BlogDash/Admin/AddBlog/AddBlog";
+import UserAddBlog from "../../BlogDash/User/UserAddBlog/UserAddBlog";
+import ManageProduct from "../ManageProduct/ManageProduct";
 
 const drawerWidth = 260;
 function ResponsiveDrawer(props) {
@@ -54,7 +56,7 @@ function ResponsiveDrawer(props) {
             </Button>
             <br />
           </Link>
-          {/* 
+
           <Link className="btn  mb-3" to={`${url}/userblog`}>
             <Button
               style={{ color: "#000", fontSize: "15px", fontWeight: "400" }}
@@ -68,7 +70,7 @@ function ResponsiveDrawer(props) {
               Add Your Blog
             </Button>{" "}
             <br />
-          </Link> */}
+          </Link>
 
           <Link className="btn  mb-3" to={`${url}/reviews`}>
             <Button
@@ -141,6 +143,19 @@ function ResponsiveDrawer(props) {
                 className="fas fa-arrows-alt me-1"
               ></i>{" "}
               Manage All Blog
+            </Button>{" "}
+            <br />
+          </Link>
+          <Link className="btn mb-3" to={`${url}/manageblogs`}>
+            <Button
+              style={{ color: "#000", fontSize: "15px", fontWeight: "400" }}
+              color="inherit"
+            >
+              <i
+                style={{ marginRight: "5px", fontSize: "20px" }}
+                className="fas fa-arrows-alt me-1"
+              ></i>{" "}
+              Manage Blogs
             </Button>{" "}
             <br />
           </Link>
@@ -235,9 +250,9 @@ function ResponsiveDrawer(props) {
             <Pay />
           </Route>
 
-          {/* <Route path={`${path}/userblog`}>
+          <Route path={`${path}/userblog`}>
             <UserAddBlog />
-          </Route> */}
+          </Route>
           <Route path={`${path}/reviews`}>
             <Reviews />
           </Route>
@@ -254,6 +269,9 @@ function ResponsiveDrawer(props) {
 
           <AdminRoute path={`${path}/manageAllOrders`}>
             <ManageAllOrder />
+          </AdminRoute>
+          <AdminRoute path={`${path}/manageblogs`}>
+            <ManageProduct />
           </AdminRoute>
         </Switch>
       </Box>

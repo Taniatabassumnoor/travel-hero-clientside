@@ -28,7 +28,7 @@ const Booking = () => {
   } = useForm();
   const { user } = useAuth();
   const onSubmit = (data) => {
-    fetch(`http://localhost:5000/`, {
+    fetch(` https://dry-bastion-02316.herokuapp.com/`, {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -43,7 +43,7 @@ const Booking = () => {
   const [service, setService] = useState({});
 
   useEffect(() => {
-    fetch(`http://localhost:5000/${serviceId}`)
+    fetch(` https://dry-bastion-02316.herokuapp.com/${serviceId}`)
       .then((res) => res.json())
       .then((result) => {
         setService(result);

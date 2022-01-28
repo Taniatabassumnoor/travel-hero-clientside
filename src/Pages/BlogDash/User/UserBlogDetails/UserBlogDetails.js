@@ -2,11 +2,11 @@ import { Box, Container, Grid, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-const BlogDetails = () => {
+const UserBlogDetails = () => {
   const [details, setDetails] = useState([]);
   const { id } = useParams();
   useEffect(() => {
-    fetch(` https://dry-bastion-02316.herokuapp.com/blogs/${id}`)
+    fetch(` https://dry-bastion-02316.herokuapp.com/userblogs/${id}`)
       .then((res) => res.json())
       .then((data) => setDetails(data));
   }, []);
@@ -46,4 +46,4 @@ const BlogDetails = () => {
   );
 };
 
-export default BlogDetails;
+export default UserBlogDetails;

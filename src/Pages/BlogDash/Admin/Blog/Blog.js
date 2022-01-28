@@ -19,22 +19,22 @@ const Blog = ({ single }) => {
           <CardMedia
             component="img"
             style={{ width: "100%", height: "350px", margin: "0 auto" }}
-            image={`data:image/jpeg;base64,${image}`}
+            image={image}
             alt=""
           />
           <CardContent sx={{ p: 3 }}>
             <Typography sx={{ p: 1 }} variant="h5" component="div">
-              Title: {title}
+              {title}
             </Typography>
             <Typography
               sx={{ p: 1, color: "gray", fontSize: "17px" }}
               variant="h6"
               component="div"
             >
-              Cost: {cost}
+              Expense: $ {cost}
             </Typography>
             <Typography sx={{ p: 1 }} variant="h6" component="div">
-              Price: $ {location}
+              Location: {location}
             </Typography>
             <NavLink
               style={{ textDecoration: "none" }}

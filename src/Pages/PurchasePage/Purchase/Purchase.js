@@ -43,7 +43,7 @@ const Purchase = () => {
     };
 
     // send to the server
-    fetch("http://localhost:5000/purchase_info", {
+    fetch(" https://dry-bastion-02316.herokuapp.com/purchase_info", {
       method: "POST",
       headers: {
         "content-type": "application/json",

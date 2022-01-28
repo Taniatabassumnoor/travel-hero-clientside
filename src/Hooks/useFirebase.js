@@ -9,6 +9,7 @@ import {
   onAuthStateChanged,
   signInWithEmailAndPassword,
   updateProfile,
+  sendEmailVerification,
 } from "firebase/auth";
 
 initializeAuthentication();
@@ -42,6 +43,7 @@ const useFirebase = () => {
       .then((userCredential) => {
         setError("");
         const newUser = { email, displayName: name };
+        verifyEmail();
         setUser(newUser);
         saveUser(email, name, "POST");
         // set name to the firebase
@@ -56,6 +58,12 @@ const useFirebase = () => {
         setError(error.message);
       })
       .finally(() => setIsLoading(false));
+  };
+  // verify email
+  const verifyEmail = () => {
+    sendEmailVerification(auth.currentUser).then((result) => {
+      console.log(result);
+    });
   };
   //   observe user state
   useEffect(() => {
@@ -73,7 +81,7 @@ const useFirebase = () => {
   useEffect(() => {
     if (user.email) {
       setIsLoading(true);
-      fetch(`http://localhost:5000/users/${user.email}`)
+      fetch(` https://dry-bastion-02316.herokuapp.com/users/${user.email}`)
         .then((res) => res.json())
         .then((data) => setAdmin(data.admin))
         .finally(() => {
@@ -111,7 +119,7 @@ const useFirebase = () => {
   // save user 73----1
   const saveUser = (email, displayName, method) => {
     const user = { email, displayName };
-    fetch("http://localhost:5000/users", {
+    fetch(" https://dry-bastion-02316.herokuapp.com/users", {
       method: method,
       headers: {
         "content-type": "application/json",
@@ -199,7 +207,7 @@ const useFirebase = () => {
   //   }, [])
 
   // useEffect(()=>{
-  //   fetch(`http://localhost:5000/users/${user.email}`)
+  //   fetch(` https://dry-bastion-02316.herokuapp.com/users/${user.email}`)
   //   .then(res=>res.json())
   //   .then(data=>setAdmin(data.admin))
   // },[user.email])
@@ -218,7 +226,7 @@ const useFirebase = () => {
   //   // save user
   //   const saveUser = (email, displayName,method) => {
   //     const user = { email, displayName };
-  //     fetch('http://localhost:5000/users',{
+  //     fetch(' https://dry-bastion-02316.herokuapp.com/users',{
   //       method: method,
   //       headers:{
   //         'content-type':'application/json'

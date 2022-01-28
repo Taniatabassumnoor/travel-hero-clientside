@@ -11,7 +11,7 @@ const Order = () => {
   const [serviceDetails, setServiceDetails] = useState({});
 
   useEffect(() => {
-    fetch(`http://localhost:5000/explore_item/${orderId}`)
+    fetch(` https://dry-bastion-02316.herokuapp.com/explore_item/${orderId}`)
       .then((res) => res.json())
       .then((result) => setServiceDetails(result));
   }, []);

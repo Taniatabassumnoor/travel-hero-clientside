@@ -1,86 +1,182 @@
 [
   {
-    "id": 1,
-    "name": "Red Ring",
-    "price": "300",
-    "description": "Deginer Collection",
-    "img": "https://i.ibb.co/TYqp2gZ/pexels-the-glorious-studio-6358514.jpg"
+    "title": "TRAVEL EXPERIENCE STORIES IN SOUTH AMERICA",
+    "author": "Jessie",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Hill Adventure",
+    "cost": "40000",
+    "date": "6-5-2019",
+    "location": "Brunei",
+    "image": "https://i.ibb.co/YD8xPfg/a1.jpg"
   },
   {
-    "id": 2,
-    "name": "Golden Necklace",
-    "price": "100",
-    "description": "Deginer Collection",
-    "img": "https://i.ibb.co/7Xp1wwc/pexels-the-glorious-studio-7093769.jpg"
+    "title": "TRAVELING WITH AN OPEN MIND",
+    "author": "Penny ",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Hill Adventure",
+    "cost": "50000",
+    "date": "2-1-2019",
+    "location": "Portugal",
+    "image": "https://i.ibb.co/vwMsFSL/a2.jpg"
   },
   {
-    "id": 3,
-    "name": "Circular Full Set",
-    "price": "150",
-    "description": "Deginer Collection",
-    "img": "https://i.ibb.co/F3QFxFz/pexels-the-glorious-studio-8891952.jpg"
+    "title": "FROM HALF-DAY HIKER TO WALKING HOLIDAY ENTHUSIAST",
+    "author": "Julie",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Hill Adventure",
+    "cost": "30000",
+    "date": "1-7-2020",
+    "location": "Banda Islands",
+    "image": "https://i.ibb.co/10tw4Tn/a3.jpg"
   },
   {
-    "id": 4,
-    "name": "Designer Earring",
-    "price": "180",
-    "description": "Deginer Collection",
-    "img": "https://i.ibb.co/P1whqrN/pexels-fazil-nasirli-7258926.jpg"
+    "title": "FROM ROME WITH LOVE",
+    "author": "Kelly",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "",
+    "cost": "46576",
+    "date": "1-1-2016",
+    "location": "Rome",
+    "image": "https://i.ibb.co/0VyxSRM/a5.jpg"
   },
   {
-    "id": 5,
-    "name": "Circular Pendants",
-    "price": "100",
-    "description": "Deginer Collection",
-    "img": "https://i.ibb.co/Dfnmzgn/pexels-the-glorious-studio-8306527.jpg"
+    "title": "STUDYING IN FINLAND",
+    "author": "Veronika ",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Hill Adventure",
+    "cost": "34254",
+    "date": "2-4-2015",
+    "location": "Finland",
+    "image": "https://i.ibb.co/jv1060t/a6.jpg"
   },
   {
-    "id": 6,
-    "name": "Spiral Full Set",
-    "price": "300",
-    "description": "Deginer Collection",
-    "img": "https://i.ibb.co/5WTHC1f/pexels-the-glorious-studio-8891961.jpg"
+    "title": "HOW CUBA CHANGED MY LIFE",
+    "author": "Claudia",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Hill Adventure",
+    "cost": "68679",
+    "date": "4-6-2020",
+    "location": "Chalten, Patagonia",
+    "image": "https://i.ibb.co/2MxK9w9/a7.jpg"
   },
   {
-    "id": 7,
-    "name": "Classic Set",
-    "price": "300",
-    "description": "Deginer Collection",
-    "img": "https://i.ibb.co/WVDkrm0/pexels-the-glorious-studio-8891953.jpg"
+    "title": "A SHORT TRAVEL STORY ABOUT FINDING INNER PEACE IN PATAGONIA",
+    "author": "Ucman ",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Hill Adventure",
+    "cost": "78878",
+    "date": "4-6-2019",
+    "location": "Colorado",
+    "image": "https://i.ibb.co/cFQs8qt/a8.jpg"
   },
   {
-    "id": 8,
-    "name": "Diamond Ring",
-    "price": "100",
-    "description": "Deginer Collection",
-    "img": "https://i.ibb.co/9YCCMSg/pexels-the-glorious-studio-5442463-1.jpg"
+    "title": " LOOKING INWARDS & MAKING CONNECTIONS WITH STRANGERS",
+    "author": "Jyoti",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Hill Adventure",
+    "cost": "34674",
+    "date": "4-4-2020",
+    "location": "Colombia",
+    "image": "https://i.ibb.co/g4cLdsr/a9.jpg"
   },
   {
-    "id": 9,
-    "name": "Simple Pendants",
-    "price": "150",
-    "description": "Deginer Collection",
-    "img": "https://i.ibb.co/cYtLq7H/pexels-the-glorious-studio-5442466.jpg"
+    "title": "A SOLO HIKE TO FIND CONNECTION",
+    "author": "Sam",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Ocean Adventure",
+    "cost": "47485",
+    "date": "5-5-2015",
+    "location": "Caribbean",
+    "image": "https://i.ibb.co/hKyS4gB/a10.jpg"
   },
   {
-    "id": 10,
-    "name": "Bracelets",
-    "price": "180",
-    "description": "Deginer Collection",
-    "img": "https://i.ibb.co/sQPBg0L/pexels-the-glorious-studio-8398911.jpg"
+    "title": "HOW A PET SITTING TRAVEL EXPERIENCE LED TO A PASSIONATE CAREER",
+    "author": "Aaron & Vivien",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Hill Adventure",
+    "cost": "80777",
+    "date": "4-5-2018",
+    "location": "Uganda",
+    "image": "https://i.ibb.co/721B80s/a11.jpg"
   },
   {
-    "id": 11,
-    "name": "Double Diamond Ring",
-    "price": "100",
-    "description": "Deginer Collection",
-    "img": "https://i.ibb.co/rmWfsbL/pexels-the-glorious-studio-5442468.jpg"
+    "title": " A CYCLING TRIP TO REMEMBER",
+    "author": "Elisa",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Hill Adventure",
+    "cost": "53663",
+    "date": "2-1-2017",
+    "location": "Europe",
+    "image": "https://i.ibb.co/WDK6pxZ/a12.jpg"
   },
   {
-    "id": 12,
-    "name": "Love Ring",
-    "price": "300",
-    "description": "Deginer Collection",
-    "img": "https://i.ibb.co/9Z7VCyG/pexels-the-glorious-studio-9544360.jpg"
+    "title": "HOW THE CARIBBEAN SHAPED ME INTO A FULLY SUSTAINABLE TRAVELER",
+    "author": "Coni",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Desert Adventure",
+    "cost": "98730",
+    "date": "2-2-2020",
+    "location": "Jamaica ",
+    "image": "https://i.ibb.co/F8MVrRZ/a13.jpg"
+  },
+  {
+    "title": "LESSONS FROM MY STUDENTS IN PERU",
+    "author": "Jiayi",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Desert Adventure",
+    "cost": "96407",
+    "date": "3-4-2020",
+    "location": "Cusco, Peru",
+    "image": "https://i.ibb.co/9YbmTNS/a14.jpg"
+  },
+  {
+    "title": "BRAVING TRAVEL WITH CHRONIC PAIN",
+    "author": "",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Desert Adventure",
+    "cost": "53346",
+    "date": "9-3-2016",
+    "location": " Santiago de Compostela",
+    "image": "https://i.ibb.co/cN5vCfr/a15.jpg"
+  },
+  {
+    "title": " A BLESSING IN DISGUISE",
+    "author": "Arabela ",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "",
+    "cost": "",
+    "date": "1-1-2021",
+    "location": "Arabela, Spain",
+    "image": "https://i.ibb.co/YQ3X4jy/IMG-20201010-145531-1-2.jpg"
+  },
+  {
+    "title": "WHAT THE RIVER TAUGHT ME",
+    "author": "Mikaela",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "",
+    "cost": "",
+    "date": "2-3-2019",
+    "location": "Missinaibi River,Canada",
+    "image": "https://i.ibb.co/Y0LK7zh/a17.jpg"
+  },
+  {
+    "title": "AWAKENING MY SPIRIT IN A COSTA RICAN CLOUD FOREST",
+    "author": "Chris",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Ocean Adventure",
+    "cost": "75686",
+    "date": "3-3-2020",
+    "location": "India",
+    "image": "https://i.ibb.co/JrKPHbg/Beautiful-girl-standing-on-viewpoint-at-Koh-Nangyuan-island-near-Koh-Tao-island-Surat-Thani-in-Thail.jpg"
+  },
+  {
+    "title": " A STORY ABOUT TRAVELING & ITS RIPPLE EFFECT",
+    "author": "De Wet",
+    "description": "\\nMy travel story takes place in South America, back when I used to travel solo for months at a time.\\n\\nI was in my mid-20s, and even though I’d backpacked Europe, Southeast Asia, and China and had studied abroad in Australia, the mix of intense excitement and nerves I had leading up to my South America backpacking trip was different.\\n\\nAnd despite family and friends warning me that South America wasn’t a place for a solo female traveler, it ended up being my best trip ever.\\n\\nIn fact, I was more than okay, as the trip showed me how independent I could be and what I was truly capable of. It also showed me the beauty of immersing yourself in cultures different than your own and connecting with locals who want to share them with you.",
+    "category": "Hill Adventure",
+    "cost": "43554",
+    "date": "4-5-2017",
+    "location": "Indonesia",
+    "image": "https://i.ibb.co/yFTZqjz/a4.jpg"
   }
 ]
